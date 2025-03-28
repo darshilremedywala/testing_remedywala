@@ -1,0 +1,88 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar{
+    background-color: rgb(217, 217, 217, 0.3)
+}
+
+.logo_img, .login_user_image{
+    cursor: pointer;
+}
+.logo_img img{
+    width: 15vw;
+}
+
+.login_user_image img{
+    width: 5vw;
+}
+
+
+.container .card1{
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgb(217, 217, 217);
+    height: 25vh;
+    position: relative;
+    top: 10vh;
+}
+
+.container .card2{
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgb(217, 217, 217);
+    height: 25vh;
+    position: relative;
+    top: 25vh;
+}
+
+.write{
+    display: flex;
+    justify-content: center;  /* Horizontally center */
+    text-decoration: none;    /* Remove default underline */
+    color: black;             /* Change text color */  /* Button-like appearance */
+    border-radius: 8px;       /* Rounded corners */
+    /* font-weight: bold;        Make text bold */
+    cursor: pointer;
+    font-size: xxx-large;
+    position: relative;
+    top: 6vh; 
+}
+
+.container .btn {
+    background-color: #1747E4; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 5vh;
+    font-size: x-large;
+    width: 15vw;
+}
+
+.container .btn:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+.container .form-control{
+    font-size: x-large;
+    margin-top: 20px;
+}
+
+.container .box1{
+    background: rgb(217, 217, 217 ,0.5);
+    width: 65vw;
+    height: 22vw;
+    position: relative;
+    left: 22.5%;
+    top: -17px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.container .box1 p{
+    font-size: 24px;
+}
